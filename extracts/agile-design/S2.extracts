@@ -1,0 +1,27 @@
+The [7] [design smells] are [Rigidity], [Fragility], [Immobility], [Viscosity], [Needless Complexity], [Needless Repetition], and [Opacity].
+[Rigidity] is when the design is [hard to change].
+Fragility is when the design is [easy to break].
+Immobility when the design is [hard to reuse].
+Viscosity when the it is [hard to do the right thing].
+Needless Complexity is caused by [overdesign].
+Needless Repetition causes [mouse abuse].
+[Opacity] reflects [disorganized expression].
+There are [5] [SOLID principles].
+The S in SOLID stands for [the Single Responsibility Principle].
+The O in SOLID stands for [the Open-Closed Principle].
+The L in SOLID stands for [the Liskov Substitution Principle].
+The I in SOLID stands for [the Interface Segregation Principle].
+The D in SOLID stands for [the Dependency Inversion Principle].
+[SRP] abbreviates [the Single Responsibility Principle].
+[OCP] abbreviates [the Open-Closed Principle].
+[LSP] abbreviates [the Liskov-Substitution Principle].
+[DIP] abbreviates [the Dependency Inversion Principle].
+[ISP] abbreviates [the Interface Segregation Principle].
+A [design smell] is a [symptom] that can be [measured].
+A [design smell] is often caused by a [violation] of one or more [SOLID principles].
+[Agile teams] [apply SOLID principles] to [remove design smells].
+[Agile teams] [don't apply SOLID principles] when [there are no design smells].
+[Conforming] to a SOLID principle [requires] a [justification].
+[Conforming] to a SOLID principle [unconditionally] is a [mistake].
+A [design smell] is a [justification] to use a [SOLID principle].
+[Overconformance] of SOLID principles leads to the [Needless Complexity] design smell. 
