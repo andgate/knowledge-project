@@ -40,15 +40,18 @@ fromExtract (Extract frags0)
         Capture t -> Cloze (IntSet.insert i indices0) (V.snoc chunks0 t)
 
 
-toTextForms :: Cloze -> [Text]
-toTextForms (Cloze indices0 chunks0) =
-  (\i -> (chunks0 V.! i) <> "\t" <> fold (chunks0 V.// [(i, "_")]))
+type DefnSym = Text
+type ClozeSym = Text
+
+toTextForms :: DefnSym -> ClozeSym -> Cloze -> [Text]
+toTextForms defnSym clozeSym (Cloze indices0 chunks0) =
+  (\i -> (chunks0 V.! i) <> defnSym <> fold (chunks0 V.// [(i, clozeSym)]))
     <$> (IntSet.toList indices0)
 
 
-clozesToText :: Clozes -> Text
-clozesToText (Clozes path0 clozes)
-  = T.unlines $ foldr (<>) mempty (toTextForms <$> clozes)
+clozesToText :: DefnSym -> ClozeSym -> Clozes -> Text
+clozesToText defnSym clozeSym (Clozes path0 clozes)
+  = T.unlines $ foldr (<>) mempty (toTextForms defnSym clozeSym <$> clozes)
 
 -- clozeAll :: Extract -> [Cloze]
 

@@ -30,7 +30,7 @@ extracts path0 =
 
 extractsP :: FilePath -> Parser Extracts
 extractsP path0 = do
-  xs <- (extractP `sepBy` eol) <?> "extracts"
+  xs <- (extractP `sepBy` some eol) <?> "extracts"
   eof
   return $ Extracts path0 xs
 

@@ -1,0 +1,58 @@
+7	The ___ design smells are Rigidity, Fragility, Immobility, Viscosity, Needless Complexity, Needless Repetition, and Opacity.
+design smells	The 7 ___ are Rigidity, Fragility, Immobility, Viscosity, Needless Complexity, Needless Repetition, and Opacity.
+Rigidity	The 7 design smells are ___, Fragility, Immobility, Viscosity, Needless Complexity, Needless Repetition, and Opacity.
+Fragility	The 7 design smells are Rigidity, ___, Immobility, Viscosity, Needless Complexity, Needless Repetition, and Opacity.
+Immobility	The 7 design smells are Rigidity, Fragility, ___, Viscosity, Needless Complexity, Needless Repetition, and Opacity.
+Viscosity	The 7 design smells are Rigidity, Fragility, Immobility, ___, Needless Complexity, Needless Repetition, and Opacity.
+Needless Complexity	The 7 design smells are Rigidity, Fragility, Immobility, Viscosity, ___, Needless Repetition, and Opacity.
+Needless Repetition	The 7 design smells are Rigidity, Fragility, Immobility, Viscosity, Needless Complexity, ___, and Opacity.
+Opacity	The 7 design smells are Rigidity, Fragility, Immobility, Viscosity, Needless Complexity, Needless Repetition, and ___.
+Rigidity	___ is when the design is hard to change.
+hard to change	Rigidity is when the design is ___.
+easy to break	Fragility is when the design is ___.
+hard to reuse	Immobility when the design is ___.
+hard to do the right thing	Viscosity when the it is ___.
+overdesign	Needless Complexity is caused by ___.
+mouse abuse	Needless Repetition causes ___.
+Opacity	___ reflects disorganized expression.
+disorganized expression	Opacity reflects ___.
+5	There are ___ SOLID principles.
+SOLID principles	There are 5 ___.
+the Single Responsibility Principle	The S in SOLID stands for ___.
+the Open-Closed Principle	The O in SOLID stands for ___.
+the Liskov Substitution Principle	The L in SOLID stands for ___.
+the Interface Segregation Principle	The I in SOLID stands for ___.
+the Dependency Inversion Principle	The D in SOLID stands for ___.
+SRP	___ abbreviates the Single Responsibility Principle.
+the Single Responsibility Principle	SRP abbreviates ___.
+OCP	___ abbreviates the Open-Closed Principle.
+the Open-Closed Principle	OCP abbreviates ___.
+LSP	___ abbreviates the Liskov-Substitution Principle.
+the Liskov-Substitution Principle	LSP abbreviates ___.
+DIP	___ abbreviates the Dependency Inversion Principle.
+the Dependency Inversion Principle	DIP abbreviates ___.
+ISP	___ abbreviates the Interface Segregation Principle.
+the Interface Segregation Principle	ISP abbreviates ___.
+design smell	A ___ is a symptom that can be measured.
+symptom	A design smell is a ___ that can be measured.
+measured	A design smell is a symptom that can be ___.
+design smell	A ___ is often caused by a violation of one or more SOLID principles.
+violation	A design smell is often caused by a ___ of one or more SOLID principles.
+SOLID principles	A design smell is often caused by a violation of one or more ___.
+Agile teams	___ apply SOLID principles to remove design smells.
+apply SOLID principles	Agile teams ___ to remove design smells.
+remove design smells	Agile teams apply SOLID principles to ___.
+Agile teams	___ don't apply SOLID principles when there are no design smells.
+don't apply SOLID principles	Agile teams ___ when there are no design smells.
+there are no design smells	Agile teams don't apply SOLID principles when ___.
+Conforming	___ to a SOLID principle requires a justification.
+requires	Conforming to a SOLID principle ___ a justification.
+justification	Conforming to a SOLID principle requires a ___.
+Conforming	___ to a SOLID principle unconditionally is a mistake.
+unconditionally	Conforming to a SOLID principle ___ is a mistake.
+mistake	Conforming to a SOLID principle unconditionally is a ___.
+design smell	A ___ is a justification to use a SOLID principle.
+justification	A design smell is a ___ to use a SOLID principle.
+SOLID principle	A design smell is a justification to use a ___.
+Overconformance	___ of SOLID principles leads to the Needless Complexity design smell. 
+Needless Complexity	Overconformance of SOLID principles leads to the ___ design smell. 
