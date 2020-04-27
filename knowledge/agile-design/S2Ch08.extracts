@@ -1,0 +1,19 @@
+[The Single Responsibility Principle] was first described as [cohesion].
+SRP dictacts that a class should have [only one reason to change].
+Each responsibility is an [axis of change].
+When [requirements change], those changes manifest as [responsiblities change].
+A class with [multiple responsibilities] will have [more than one reason to change].
+When a class has [more than one responsibility], those responsibilies are [coupled].
+Coupling can lead to [fragile designs], which break unexpectedly from changes.
+A class with [multiple responsibilities] tends to violate [The Single Responsibility Principle].
+A [responsibility] is [a reason for change].
+A class with [more than one motive to change], has [more than one responsibility].
+An [axis of change] is an axis of change only [if the changes actually occur].
+If an [application is not changing] in ways that cause [different coupled responsibilities] to change at different times, then [they should not be separated].
+In source code, [responsibilities] are often specified as [interfaces].
+System dependencies should be [more decoupled] than the system itself.
+Dependency coupling should increase [topologically].
+The Single Responsibility Principle can be applied to the [Rigidity] and the [Fragility] design smells.
+Apply SRP to remove the [Rigidity] design smell when a [highly coupled system] is [hard to change].
+Apply SRP to remove the [Fragility] design smell when a [highly coupled system] is [easy to break].
+When the [Rigidity and Fragility] design smells, apply the [Facade or Proxy] design patterns, which adhere to [The Single Responsibility Principle].

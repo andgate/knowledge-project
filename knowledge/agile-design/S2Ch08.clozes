@@ -1,0 +1,37 @@
+The Single Responsibility Principle	___ was first described as cohesion.
+cohesion	The Single Responsibility Principle was first described as ___.
+only one reason to change	SRP dictacts that a class should have ___.
+axis of change	Each responsibility is an ___.
+requirements change	When ___, those changes manifest as responsiblities change.
+responsiblities change	When requirements change, those changes manifest as ___.
+multiple responsibilities	A class with ___ will have more than one reason to change.
+more than one reason to change	A class with multiple responsibilities will have ___.
+more than one responsibility	When a class has ___, those responsibilies are coupled.
+coupled	When a class has more than one responsibility, those responsibilies are ___.
+fragile designs	Coupling can lead to ___, which break unexpectedly from changes.
+multiple responsibilities	A class with ___ tends to violate The Single Responsibility Principle.
+The Single Responsibility Principle	A class with multiple responsibilities tends to violate ___.
+responsibility	A ___ is a reason for change.
+a reason for change	A responsibility is ___.
+more than one motive to change	A class with ___, has more than one responsibility.
+more than one responsibility	A class with more than one motive to change, has ___.
+axis of change	An ___ is an axis of change only if the changes actually occur.
+if the changes actually occur	An axis of change is an axis of change only ___.
+application is not changing	If an ___ in ways that cause different coupled responsibilities to change at different times, then they should not be separated.
+different coupled responsibilities	If an application is not changing in ways that cause ___ to change at different times, then they should not be separated.
+they should not be separated	If an application is not changing in ways that cause different coupled responsibilities to change at different times, then ___.
+responsibilities	In source code, ___ are often specified as interfaces.
+interfaces	In source code, responsibilities are often specified as ___.
+more decoupled	System dependencies should be ___ than the system itself.
+topologically	Dependency coupling should increase ___.
+Rigidity	The Single Responsibility Principle can be applied to the ___ and the Fragility design smells.
+Fragility	The Single Responsibility Principle can be applied to the Rigidity and the ___ design smells.
+Rigidity	Apply SRP to remove the ___ design smell when a highly coupled system is hard to change.
+highly coupled system	Apply SRP to remove the Rigidity design smell when a ___ is hard to change.
+hard to change	Apply SRP to remove the Rigidity design smell when a highly coupled system is ___.
+Fragility	Apply SRP to remove the ___ design smell when a highly coupled system is easy to break.
+highly coupled system	Apply SRP to remove the Fragility design smell when a ___ is easy to break.
+easy to break	Apply SRP to remove the Fragility design smell when a highly coupled system is ___.
+Rigidity and Fragility	When the ___ design smells, apply the Facade or Proxy design patterns, which adhere to The Single Responsibility Principle.
+Facade or Proxy	When the Rigidity and Fragility design smells, apply the ___ design patterns, which adhere to The Single Responsibility Principle.
+The Single Responsibility Principle	When the Rigidity and Fragility design smells, apply the Facade or Proxy design patterns, which adhere to ___.

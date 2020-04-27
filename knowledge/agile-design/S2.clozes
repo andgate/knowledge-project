@@ -55,4 +55,4 @@ design smell	A ___ is a justification to use a SOLID principle.
 justification	A design smell is a ___ to use a SOLID principle.
 SOLID principle	A design smell is a justification to use a ___.
 Overconformance	___ of SOLID principles leads to the Needless Complexity design smell. 
-Needless Complexity	Overconformance of SOLID principles leads to the ___ design smell. 
+Needless Complexity	Overconformance of SOLID principles leads to the ___ design smell.

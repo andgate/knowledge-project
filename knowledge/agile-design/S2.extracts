@@ -24,4 +24,4 @@ A [design smell] is often caused by a [violation] of one or more [SOLID principl
 [Conforming] to a SOLID principle [requires] a [justification].
 [Conforming] to a SOLID principle [unconditionally] is a [mistake].
 A [design smell] is a [justification] to use a [SOLID principle].
-[Overconformance] of SOLID principles leads to the [Needless Complexity] design smell. 
+[Overconformance] of SOLID principles leads to the [Needless Complexity] design smell.
